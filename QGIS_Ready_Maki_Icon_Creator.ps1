@@ -1,4 +1,4 @@
-﻿$configFiles = Get-ChildItem -Path <REPLACE WITH THE PATH TO YOU MAKI ICONS>*.svg -rec
+﻿$configFiles = Get-ChildItem -Path C:\PATH TO MAKI ICON FOLDER\*.svg -rec
 foreach ($file in $configFiles)
 {
     (Get-Content $file.PSPath) |
